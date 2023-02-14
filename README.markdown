@@ -1,5 +1,5 @@
 <details>
-<summary>下游这里的变更</summary>
+<summary>上游原始信息</summary>
 
 - 添加了 vts 模块
 - 扶正 debian 打包目录
@@ -63,4 +63,3 @@ Contact
 [https://github.com/alibaba/tengine/issues](https://github.com/alibaba/tengine/issues)
 
 Dingtalk user group: 23394285
-

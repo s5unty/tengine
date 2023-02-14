@@ -34,6 +34,9 @@ override_dh_auto_build:
 		--user=nginx \
 		--group=nginx \
 		--add-module=modules/nginx-module-vts \
+		--add-module=modules/ngx_backtrace_module \
+		--add-module=modules/ngx_http_upstream_keepalive_module \
+		--add-module=modules/ngx_http_upstream_check_module \
 		--with-http_ssl_module \
 		--with-http_realip_module \
 		--with-http_addition_module \
@@ -72,6 +75,9 @@ configure_debug:
 		--user=nginx \
 		--group=nginx \
 		--add-module=modules/nginx-module-vts \
+		--add-module=modules/ngx_backtrace_module \
+		--add-module=modules/ngx_http_upstream_keepalive_module \
+		--add-module=modules/ngx_http_upstream_check_module \
 		--with-http_ssl_module \
 		--with-http_realip_module \
 		--with-http_addition_module \
