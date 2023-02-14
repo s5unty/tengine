@@ -1,0 +1,3 @@
+[submodule "modules/nginx-module-vts"]
+	path = modules/nginx-module-vts
+	url = https://github.com/vozlt/nginx-module-vts.git
