@@ -3,7 +3,7 @@ Section: httpd
 Priority: optional
 Maintainer: Sun Wuan <s5unty@gmail.com>
 Uploaders: Sun Wuan <s5unty@gmail.com>
-Build-Depends:  debhelper (>= 7.0.50~), libssl-dev (>= 0.9.7), libpcre3-dev, zlib1g-dev
+Build-Depends:  debhelper (>= 7.0.50~), libssl-dev (>= 0.9.7), liblua5.1-0-dev, libluajit-5.1-dev, libpcre3-dev, zlib1g-dev
 Standards-Version: 3.9.2
 Homepage: http://tengine.taobao.org/
 Vcs-Git: git://github.com/alibaba/tengine.git
