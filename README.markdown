@@ -1,8 +1,11 @@
 <details>
-<summary>上游原始信息</summary>
+<summary>下游这里的变更</summary>
 
-- 添加了 vts 模块
-- 扶正 debian 打包目录
+- 扶正 debian 目录，方便打包
+- 打包了外置的 vts 模块
+  [vozlt/nginx-module-vts: Nginx virtual host traffic status module](https://github.com/vozlt/nginx-module-vts)
+- 打包了内置的除tfs和ssl以外的全部模块
+  [模块清单 - The Tengine Web Server](https://tengine.taobao.org/documentation.html)
 
 </details>
 
