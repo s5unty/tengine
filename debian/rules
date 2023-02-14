@@ -33,6 +33,7 @@ override_dh_auto_build:
 		--http-scgi-temp-path=/var/cache/nginx/scgi_temp \
 		--user=nginx \
 		--group=nginx \
+		--add-module=modules/nginx-module-vts \
 		--with-http_ssl_module \
 		--with-http_realip_module \
 		--with-http_addition_module \
@@ -70,6 +71,7 @@ configure_debug:
 		--http-scgi-temp-path=/var/cache/nginx/scgi_temp \
 		--user=nginx \
 		--group=nginx \
+		--add-module=modules/nginx-module-vts \
 		--with-http_ssl_module \
 		--with-http_realip_module \
 		--with-http_addition_module \

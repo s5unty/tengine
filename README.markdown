@@ -1,4 +1,5 @@
-
+<details>
+<summary>上游原始信息</summary>
 Introduction [![Build Status](https://github.com/alibaba/tengine/actions/workflows/ci.yml/badge.svg)](https://github.com/alibaba/tengine/actions/workflows/ci.yml)
 ============
 
@@ -56,3 +57,8 @@ Contact
 [https://github.com/alibaba/tengine/issues](https://github.com/alibaba/tengine/issues)
 
 Dingtalk user group: 23394285
+</details>
+
+- 添加了 vts 模块
+- 扶正 debian 打包目录
+
