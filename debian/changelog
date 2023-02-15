@@ -1,7 +1,5 @@
-tengine (2.4.0+vts-0.2.1~ubuntu20.04-1) unstable; urgency=medium
+tengine (2.4.0~u2204+nmu1) unstable; urgency=medium
 
-  * updated to nginx core 1.22.1 by @jiuzhoucui @chobits in #1719 #1733 #1731
-  * with Nginx virtual host traffic status module (nginx-module-vts_0.2.1)
+  * Non-maintainer upload.
 
- -- Sun Wuan <s5unty@gmail.com>  Mon, 13 Feb 2023 16:51:37 +0800
-
+ -- Sun Wuan <s5unty@gmail.com>  Wed, 15 Feb 2023 09:19:07 +0800
